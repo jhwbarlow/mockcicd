@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MOCKCICD_SRCDIRPATH="tmp/src" \
-MOCKCICD_GITREPOURL="https://github.com/jhwbarlow/instant-search-demo.git" \
+MOCKCICD_GITREPOURL="https://github.com/algolia/instant-search-demo.git" \
 MOCKCICD_GITBRANCH="master" \
 MOCKCICD_IMAGENAME="myregistry.com/jhwbarlow/algolia-instant-search-demo" \
 MOCKCICD_HELMCHARTPATH="chart/algolia-instant-search-demo" \

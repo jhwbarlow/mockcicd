@@ -65,7 +65,7 @@ Configuration
 
 The following environment variables configure the Go program:
 - *MOCKCICD_SRCDIRPATH* - the path where the source code will be stored. (Note: Only tested as a path relative to the root of this project).
-- *MOCKCICD_GITREPOURL* - the URL of the Git repository containing the source code to deploy.
+- *MOCKCICD_GITREPOURL* - the URL of the Git repository containing the source code to deploy. Currently only supports HTTPS Git URLs, not SSH.
 - *MOCKCICD_GITBRANCH* - the branch in the repository.
 - *MOCKCICD_IMAGENAME* - the name of the container image (including the registry name) that will be built and pushed.
 - *MOCKCICD_HELMCHARTPATH* - the path to the Helm chart to be used. (Note: Only tested using the provided chart path relative to the root of this project).

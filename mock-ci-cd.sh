@@ -4,7 +4,7 @@ set -e
 set -o pipefail
 
 readonly POLL_PERIOD="1m"
-readonly GIT_REPO="https://github.com/jhwbarlow/instant-search-demo.git"
+readonly GIT_REPO="https://github.com/algolia/instant-search-demo.git"
 readonly GIT_BRANCH="master"
 readonly SRC_DIR="tmp/src"
 readonly IMAGE_NAME="myregistry.com/jhwbarlow/algolia-instant-search-demo"
